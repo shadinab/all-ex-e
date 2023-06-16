@@ -1,0 +1,24 @@
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: relative;
+  overflow: auto;
+  }
+  
+  #inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  top: 30px;
+  position: absolute;
+  
+  
+  }
+  .center
+  {
+  overflow: auto;
+  box-sizing: border-box;
+  }
+  
