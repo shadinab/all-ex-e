@@ -1,0 +1,63 @@
+
+.fixall{
+  
+  position: sticky;
+  background: linear-gradient(#ece6e6, #4d4d52);  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+margin-top: 2.5rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+.fixit{
+  display: flex;
+  gap: 4rem;
+  text-decoration: none;
+  height: 5rem;
+padding-top: 3rem; 
+text-align: center;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.img123
+{
+  width: 300px;
+}
+
+.welcome h4,h2 {
+  font-size: 1rem;
+  Line: height 2rem;
+  color: aqua;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  }
+
+
+  .bgc{
+    background: rgb(6, 113, 146);
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+width: 40%;
+padding: 0.7rem;
+  }
+
+  .footer{
+    background: aqua;
+    text-align: center;
+width: 65%; 
+margin-top: 2rem;
+padding: 1.3rem;
+}
+
+.fixall2{
+  
+  position: sticky;
+  background: linear-gradient(, #4d4d52);  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+margin-top: 2.9rem;
+margin-right: 1.5rem;
+margin-left: 1.5rem
+}
