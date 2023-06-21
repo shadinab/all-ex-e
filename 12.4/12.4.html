@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12.4</title>
+  <style>
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      text-align: left;
+      width: 20%;
+      margin: auto;
+      line-height: 2;
+    }
+
+    .corner-border, .corner-right, .corner-bottom, .corner-left {
+      position: relative;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .corner-border::after {
+      content:'';
+      position: absolute;
+      background-color: pink;
+      width: 3px;
+      height: 60%;
+      top: 0;
+      left:-15px;
+    }
+
+    .corner-border::before{
+      content:'';
+      position: absolute;
+      background-color: rgb(5, 4, 83);
+      width: 20%;
+      height: 3px;
+      top: 0;
+      left:-12px;
+    }
+
+    .corner-right::after {
+      content:'';
+      position: absolute;
+      background-color: rgb(212, 0, 35);
+      width: 3px;
+      height: 60%;
+      top: 0;
+      left:150px;
+    }
+
+    .corner-right::before{
+      content:'';
+      position: absolute;
+      background-color: rgb(6, 207, 16);
+      width: 20%;
+      height: 3px;
+      top: 0;
+      left:120px;
+    }
+
+    .corner-bottom::after {
+      content:'';
+      position: absolute;
+      background-color: rgb(104, 0, 255);
+      width: 20%;
+      height: 3px;
+      bottom: -15px;
+      left:120px;
+    }
+
+    .corner-bottom::before{
+      content:'';
+      position: absolute;
+      background-color: rgb(255, 190, 0);
+      width: 3px;
+      height: 20px;
+      bottom: -12px;
+      left: 147px;
+    }
+
+    .corner-left::after {
+      content:'';
+      position: absolute;
+      background-color: rgb(250, 42, 0);
+      width: 3px;
+      height: 60%;
+      top: 21px;
+      right:167px;
+    }
+
+    .corner-left::before{
+      content:'';
+      position: absolute;
+      background-color: rgb(0, 175, 255);
+      width: 20%;
+      height: 3px;
+      top: 50px;
+      right: 140px;
+    }
+
+  </style>
+</head>
+<body>
+  <h2 class="corner-border">cool border</h2>
+  <h2 class="corner-right">cool border</h2>
+  <h2 class="corner-bottom">cool border</h2>
+  <h2 class="corner-left">cool border</h2>
+</body>
+</html>
