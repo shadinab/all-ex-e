@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12.5</title>
+  <style>
+    <style>
+      
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tooltip {
+  position: relative;
+}
+
+.font
+{
+  color: red;
+}
+
+p
+{
+text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(226, 222, 0);
+  color: #141313;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+margin-top: -25px;
+margin-left: -100px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+</style>
+</head>
+<body>
+
+  <p>
+ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque id natus nihil rerum maiores temporibus culpa corrupti quis nisi, laboriosam, facere incidunt? Velit dolor alias officiis fugit, unde iusto qui! 
+
+ <div class="tooltip font" >Hover over me <span class="tooltiptext">Tooltip text</span></div>
+</p>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam temporibus velit vel sequi iusto earum similique quidem architecto vero tempore mollitia nihil id placeat aperiam repellendus, voluptas eligendi fuga molestias!
+</p>
+</body>
+</html>
