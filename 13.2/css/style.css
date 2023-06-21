@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  animation: coolEffect 3s infinite;
+}
+.fixall{
+  position: sticky;
+  background: linear-gradient(#a8d4bc, #629752);  display: flex;
+  justify-content: space-between;
+  width:100%;
+  height: 3rem;
+  text-decoration: none;
+ align-items: center;
+margin-left: 2rem;
+margin-right: 20rem;
+padding-left: 12rem;
+padding-right: 15rem;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.fixit{
+  display: flex;
+  gap: 4rem;
+  text-decoration: none;
+  /* margin: ; */
+}
+.none {
+list-style: none;
+
+/* width: 100%; */
+/* margin: 0 auto; */
+/* text-align: center; */
+/* margin: 0 auto; */
+}
+.bgc{
+  background: rgb(144, 228, 221);
+}
+
+.footer{
+  background: rgb(54, 150, 67);
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+
+body {
+  background: black url(/img/forest\ 2.jpg) no-repeat center center/cover;
+  font-family: Roboto;
+  line-height: 1.8rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+align-items: center;
+margin-top: 18rem;
+margin-bottom:5rem ;
+}
+    .card {
+  width: 300px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: px;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+.welcome h4,h2 {
+font-size: 18px;
+Line: height 1.6em;
+color: rgb(0, 0, 0);
+}
+.text
+{
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+.code-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+max-width: 1000px;
+padding-left: 12rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
+background: #141313 url(/img/forest01.jpg) no-repeat center/cover;
+width: 100%;
+width: 100vw;
+border: 13px solid #333;
+border: 0.1rem solid rgb(0, 0, 0);
+}
+
+
+
+.float{
+float: center;
+box-sizing: border-box;
+}
+
+/* tooltip */
+
+
+.tooltip {
+  position: relative;
+}
+
+.font
+{
+  color: red;
+}
+
+p
+{
+text-align: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgb(226, 222, 0);
+  color: #141313;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+margin-top: 30px;
+margin-left: -210px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.img123 
+{
+opacity: 0.7;
+margin: 2rem;
+}
+
+*reset
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+.space{
+top: 0;  }
+
+button {
+background:  rgb(136, 201, 195);
+width: 15%;
+height: 1.5rem;
+border: none;
+}
