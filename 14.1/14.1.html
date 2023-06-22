@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14.1</title>
+  <style>
+    .container {
+      position: relative;
+    }
+    
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: #ff0000;
+      overflow: hidden;
+    }
+    
+    .box::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0%;
+      width: 200px;
+      height: 200px;
+      background-color: #0000ff;
+      transition: all 1s ease-in-out;
+      transform: translateX(0%);
+    }
+    
+    .box:hover::after {
+      transform: translateX(-120%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
