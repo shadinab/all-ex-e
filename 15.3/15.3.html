@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15.3</title>
+  <style>
+
+    .container
+    {
+      display: grid;
+      width: 70%;
+      grid-template-areas: 
+      "item1 item1 item1 item1 item1 item1 item1 item1"
+      "item2 item2 item3 item3 item3 item3 item4 item4"
+      "item2 item2 item3 item3 item3 item3 item4 item4"
+      "item5 item5 item5 item5 item5 item5 item5 item5"
+      ;
+      gap: 1rem;
+      padding: 100px;
+color: white;
+}
+
+@media(max-width: 768px){
+  .container
+  {
+    grid-template-areas: 
+      "item1 item1 item1 item1 item1 item1 item1 item1"
+      "item2 item2 item3 item3 item3 item3 item3 item3"
+      "item2 item2 item3 item3 item3 item3 item3 item3"
+      "item4 item4 item4 item4 item4 item4 item4 item4"
+      "item5 item5 item5 item5 item5 item5 item5 item5"
+      ;
+  }
+}
+
+  @media(max-width: 500px){
+  .container
+  {
+    grid-template-areas: 
+      "item1"
+      "item2"
+      "item3"
+      "item3"
+      "item4"
+      "item5"
+      ;
+  }
+}
+
+    .item1
+    {
+      grid-area: item1;
+    }
+
+    .item2
+    {
+      grid-area: item2;
+    }
+
+    .item3
+    {
+      grid-area: item3;
+    }
+
+    .item4
+    {
+      grid-area: item4;
+    } 
+
+    .item5
+    {
+      grid-area: item5;
+    }
+
+    .item1
+    {
+      background: red;
+      border-radius: 20px;
+      padding-left: 2rem;
+
+    }
+
+    .item2
+    {
+      background: blue;
+      border-radius: 20px;
+      padding-left: 2rem;
+
+    }
+
+    .item3
+    {
+      background: green;
+      border-radius: 20px;
+      padding-left: 2rem;
+
+    }
+    
+    .item4
+    {
+      background: purple;
+      border-radius: 20px;
+      padding-left: 2rem;
+
+    }
+
+    .item5
+    {
+      background: yellow;
+      border-radius: 20px;
+      padding-left: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+ <div class="item1"><h1>Header</h1></div>
+ <div class="item2"><h1>Sidebar</h1></div>
+ <div class="item3">
+  <h1>content</h1>
+  <h2>More content than we had before so this <br>column is now quite tall</h2>
+ </div>
+ <div class="item4"><h1>sidebar2</h1></div>
+ <div class="item5"><h1>footer</h1></div>
+</div>
+</body>
+</html>
