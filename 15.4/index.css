@@ -1,0 +1,177 @@
+*reset
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  width: 100vw;
+}
+
+
+
+.container
+{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  gap: 1rem;
+  grid-template-areas: 
+  "img1 img1 img2 img2 img2 img3 img4 img4"
+  "img1 img1 img2 img2 img2 img3 img4 img4"
+  "img5 img5 img2 img2 img2 img8 img8 img9"
+  "img5 img5 img6 img6 img7 img8 img8 img9"
+  "img5 img5 img6 img6 img13 img13 img13 img9"
+  "img10 img11 img11 img12 img13 img13 img13 img14"
+  "img10 img11 img11 img12 img13 img13 img13 img14"
+  ;
+}
+
+@media(max-width: 768px)
+{
+.container
+{
+  grid-template-areas: 
+  "img1 img1 img1 img2 img2 img3 img3 img3"
+  "img1 img1 img1 img2 img2 img3 img3 img3"
+  "img4 img4 img5 img2 img2 img3 img3 img3"
+  "img4 img4 img5 img6 img6 img3 img3 img3"
+  "img8 img8 img5 img6 img6 img7 img7 img7"
+  "img8 img8 img9 img9 img9 img7 img7 img7"
+  "img8 img8 img9 img9 img9 img10 img11 img11"
+  "img12 img12 img9 img9 img9 img10 img11 img11"
+  "img12 img12 img13 img13 img13 img10 img14 img14"
+  "img12 img12 img13 img13 img13 img10 img14 img14"
+  ; 
+}
+}
+.img1
+{
+  grid-area: img1;
+}
+.img2
+{
+  grid-area: img2;
+}
+.img3
+{
+  grid-area: img3;
+}
+.img4
+{
+  grid-area: img4;
+}
+.img5
+{
+  grid-area: img5;
+}
+.img6
+{
+  grid-area: img6;
+}
+.img7
+{
+  grid-area: img7;
+}
+.img8
+{
+  grid-area: img8;
+}
+.img9
+{
+  grid-area: img9;
+}
+.img10
+{
+  grid-area: img10;
+}
+.img11
+{
+  grid-area: img11;
+}
+.img12
+{
+  grid-area: img12;
+}
+.img13
+{
+  grid-area: img13;
+}
+.img14
+{
+  grid-area: img14;
+}
+
+/*  */
+
+.img1
+{
+background: url('./img/1.jpeg') no-repeat center center/cover;
+}
+
+.img2
+{
+background: url('./img/2.jpeg')no-repeat center center/cover;
+}
+
+.img3
+{
+background: url('./img/3.jpeg')no-repeat center center/cover;
+}
+
+.img4
+{
+background: url('./img/4.jpeg')no-repeat center center/cover;
+}
+
+.img5
+{
+background: url('./img/5.jpeg')no-repeat center center/cover;
+}
+
+.img6
+{
+background: url('./img/6.jpeg')no-repeat center center/cover;
+}
+
+.img7
+{
+background: url('./img/7.jpeg')no-repeat center center/cover;
+}
+
+.img8
+{
+background: url('./img/8.jpeg')no-repeat center center/cover;
+}
+
+.img9
+{
+background: url('./img/9.jpeg')no-repeat center center/cover;
+}
+
+.img10
+{
+background: url('./img/10.jpeg')no-repeat center center/cover;
+}
+
+.img11
+{
+background: url('./img/11.jpeg')no-repeat center center/cover;
+}
+
+.img12
+{
+background: url('./img/12.jpeg')no-repeat center center/cover;
+}
+
+.img13
+{
+background: url('./img/13.jpeg')no-repeat center center/cover;
+}
+
+.img14
+{
+background: url('./img/14.jpeg')no-repeat center center/cover;
+}
